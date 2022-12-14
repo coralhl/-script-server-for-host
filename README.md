@@ -7,4 +7,4 @@ You need to create a directory `build`, download and unzip the script-server rel
 и запустить `docker build -t script-server .`
 
 ## docker-compose
-I use to run the container docker-compose. Файл конфигурации прикладываю
+I use docker-compose to run the container. Configuration file is present
