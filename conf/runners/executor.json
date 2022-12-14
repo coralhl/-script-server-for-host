@@ -1,0 +1,7 @@
+{
+  "name": "executor",
+  "script_path": "/app/scripts/executor.sh",
+  "description": "Launches the host console from the container",
+  "output_format": "terminal",
+  "parameters": []
+}
