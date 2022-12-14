@@ -1,0 +1,14 @@
+version: "2.4"
+
+services:
+  script-server:
+    image: script-server:latest
+    container_name: script-server
+    privileged: true
+    pid: "host"
+    volumes:
+      - /path/to/docker/bind/script-server/conf:/app/conf
+      - /path/to/docker/bind/script-server/scripts:/app/scripts
+    ports:
+      - 5000:5000
+    restart: unless-stopped
